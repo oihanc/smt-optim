@@ -64,6 +64,9 @@ html_theme_options = {
         "image_light": "smt_logo.png",
         "image_dark": "smt_logo.png",
     },
+
+    "repository_url": "https://github.com/SMTorg/smt-optim",
+    "use_repository_button": True,
 }
 
 
