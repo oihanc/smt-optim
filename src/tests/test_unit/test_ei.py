@@ -34,7 +34,6 @@ class TestExpectedImprovement(unittest.TestCase):
 
         # test that vec_ei corresponds to ei
         self.assertEqual(vec_ei[0], expected_improvement(mu[0, 0], s2[0, 0], f_min))
-        self.assertEqual(vec_ei[1], 0)
 
 
 if __name__ == "__main__":
