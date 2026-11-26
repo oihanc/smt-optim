@@ -19,7 +19,7 @@ from smt_optim.subsolvers.multistart import mixvar_multistart_minimize
 from smt_optim.subsolvers import multistart_minimize
 
 
-class MFSEGO(AcquisitionStrategy):
+class SEGO(AcquisitionStrategy):
     """
     Multi-Fidelity Super Efficient Global Optimization (MF-SEGO) strategy.
 
